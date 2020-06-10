@@ -129,6 +129,3 @@ class IdleTyper extends React.Component {
   );
   
   document.addEventListener('keydown', window.onKeyPressed);
-  window.onload = function() {
-    alert('hi');
-  }
