@@ -42,6 +42,11 @@ button {
   margin: 10px;
 }
 
+button:focus {
+  border: none;
+  outline: 2px solid white;
+}
+
 @media (max-width: 600px) {
   .shop-container {
     position: fixed;
